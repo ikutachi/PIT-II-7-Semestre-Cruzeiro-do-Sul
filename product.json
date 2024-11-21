@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Café Gelado 400ml",
+    "price": 11.99,
+    "image": "image/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino 350ml",
+    "price": 6,
+    "image": "image/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Latte 300ml",
+    "price": 8.99,
+    "image": "image/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fatia Húngara 3 un.",
+    "price": 7.99,
+    "image": "image/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pão de Forma Caseiro",
+    "price": 14.99,
+    "image": "image/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pão Francês 5 un.",
+    "price": 5,
+    "image": "image/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Yakisoba Pan 1 un.",
+    "price": 10,
+    "image": "image/7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Baguette 1 un.",
+    "price": 7.99,
+    "image": "image/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Panqueca com recheio",
+    "price": 13.99,
+    "image": "image/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Christmas Cake 1 fatia - 150g",
+    "price": 8.9,
+    "image": "image/10.jpg"
+  }
+]

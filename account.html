@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="I Need More Power" />
+    <meta name="description" content="Padaria EAD PIT II Project" />
+    <link rel="icon" type="image/png" href="image\ico.png" />
+    <link rel="icon" type="image/ico" href="image\ico.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a1d9d84b2a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">
+          <a href="index.html" id="homeButton"><h1>HOME</h1></a>
+        </div>
+        <a href="orderPage.html" class="linkTop">Pedidos</a>
+        <a href="account.html" class="linkTop">Conta</a>
+        <div class="iconCart">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 18 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+            />
+          </svg>
+          <div class="totalQuantity">0</div>
+        </div>
+      </header>
+    </div>
+
+    <div class="accountCr">
+      <h1 class="accTit">Login</h1>
+
+      <form class="accForm" id="login-form">
+        <input
+          type="text"
+          id="login-username"
+          placeholder="USUÁRIO"
+          required
+        /><br />
+        <input
+          type="password"
+          id="login-password"
+          placeholder="SENHA"
+          required
+        /><br />
+        <button class="accBtn" id="login" type="submit">Login</button>
+      </form>
+
+      <h1 class="accTit">Criar Conta</h1>
+
+      <form class="accForm" id="register-form">
+        <input
+          type="text"
+          id="register-username"
+          placeholder="USUÁRIO"
+          required
+        /><br />
+        <input
+          type="password"
+          id="register-password"
+          placeholder="SENHA"
+          required
+        /><br />
+        <button class="accBtn" id="register" type="submit">Criar Conta</button>
+      </form>
+      <a class="linkPass" href=""> Esqueci a Senha</a>
+    </div>
+
+    <div class="cart">
+      <h2>CART</h2>
+
+      <div class="listCart"></div>
+
+      <div class="buttons">
+        <div class="close">Fechar</div>
+        <div class="checkout">
+          <a href="checkout.html">Concluir Compra</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot1">
+        <p>
+          <a
+            href="https://youtu.be/lkXuCESlWsY?si=jMWDI2PQjX7-3umV"
+            class="ftLink"
+            target="_blank"
+            >Quem Somos Nós?</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/Vsy1URDYK88?si=ItY8EjaRdESZQE2c"
+            class="ftLink"
+            target="_blank"
+            >Onde Estamos?</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/pRV_083QrCU?si=qNuMf2MvKX2AwuPc"
+            class="ftLink"
+            target="_blank"
+            >Contato</a
+          >
+        </p>
+      </div>
+      <div class="foot2">
+        <p>
+          <a
+            href="https://youtu.be/uDfXdKmlvfM?si=Sn8kd4QyFg9Kfd47"
+            class="ftLink"
+            target="_blank"
+            >Temas</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/w0uvN5BeAZ8?si=hnIEGzNPQln5TDUd"
+            class="ftLink"
+            target="_blank"
+            >Acessibilidade</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/BEEaFW9aOL4?si=7zErscJLg5rjEtTm"
+            class="ftLink"
+            target="_blank"
+            >Opções de Pagamento</a
+          >
+        </p>
+      </div>
+      <div class="foot3">
+        <p>
+          <a
+            href="https://github.com/ikutachi"
+            class="socialLink"
+            target="_blank"
+            ><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/e4_mgv59g-c?si=C3qipNhzQNrdQuUh"
+            class="socialLink"
+            target="_blank"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </p>
+        <p>
+          <a
+            href="https://youtu.be/wUjLGQvVVE8?si=of4Yc6jftt2NAxf5"
+            class="socialLink"
+            target="_blank"
+            ><i class="fa-brands fa-square-whatsapp"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
+    <script src="account.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

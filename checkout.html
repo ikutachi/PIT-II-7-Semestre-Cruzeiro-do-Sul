@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finalização de Compra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="image\ico.png" />
+    <link rel="icon" type="image/ico" href="image\ico.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="checkoutLayout">
+        <div class="returnCart">
+          <a class="linkTop" href="/">Continuar Comprando</a>
+          <h1>Produtos no Carrinho</h1>
+          <div class="list"></div>
+        </div>
+
+        <div class="right">
+          <h1>Checkout</h1>
+
+          <div class="form">
+            <div class="group">
+              <label for="name">Nome Completo</label>
+              <input type="text" name="name" id="name" />
+            </div>
+
+            <div class="group">
+              <label for="phone">Número de Telefone</label>
+              <input type="text" name="phone" id="phone" />
+            </div>
+
+            <div class="group">
+              <label for="address">Endereço</label>
+              <input type="text" name="address" id="address" />
+            </div>
+
+            <div class="group">
+              <label for="state">Estado</label>
+              <select name="state" id="state">
+                <option value="">Escolher...</option>
+                <option value="">Paraná</option>
+                <option value="">Santa Catarina</option>
+              </select>
+            </div>
+
+            <div class="group" id="city">
+              <label for="city">Cidade</label>
+              <select name="city" id="city">
+                <option value="">Escolher...</option>
+                <option value="">Maringá</option>
+                <option value="">Curitiba</option>
+                <option value="">Florianópolis</option>
+                <option value="">Pinhais</option>
+                <option value="">Morretes</option>
+              </select>
+            </div>
+          </div>
+          <div class="return">
+            <div class="row">
+              <div>Quantidade</div>
+              <div class="totalQuantity"></div>
+            </div>
+            <div class="row">
+              <div>Preço Total</div>
+              <div class="totalPrice"></div>
+            </div>
+          </div>
+          <button id="buttonCheckout" class="buttonCheckout">COMPRAR</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>
